@@ -95,6 +95,9 @@
   align-items: center;
   border-bottom: 1px solid lightgrey;
 }
+main .col {
+  flex-direction: column;
+}
 /* FINE COLONNA CONTATTI
 
 /* INIZIO COLONNA CHAT */
@@ -112,8 +115,10 @@
   justify-content: space-between;
   align-items: center;
 }
-
-.chat .row-scrivi-messaggio {
+.main .chat .conversazione {
+  height: calc(100% - 140px);
+}
+.chat .scrivi {
   background-color: lightgrey;
   height: 70px;
   width: 100%;
