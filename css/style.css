@@ -19,6 +19,7 @@
 
 /* INIZIO MAIN, CHE CONTIENE LE DUE COLONNE PRINCIPALI */
 .main {
+  min-width: 1000px;
   width: 85%;
   height: 97%;
   margin-left: 70px;
@@ -46,6 +47,9 @@
   padding-right: 6px;
 }
 .main a {
+  color: grey;
+}
+.main span {
   color: grey;
 }
 /* INIZIO COLONNA DEI CONTATTI */
@@ -121,5 +125,16 @@
   height: 70px;
   width: 100%;
   align-self: flex-end;
+}
+.scrivi #mex {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 140px;
+  padding-right: 140px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 /* FINE COLONNA CHAT */
