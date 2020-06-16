@@ -73,7 +73,7 @@
   background-color: lightblue;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .contacts .ricerca {
@@ -95,9 +95,7 @@
   align-items: center;
   border-bottom: 1px solid lightgrey;
 }
-main .col {
-  flex-direction: column;
-}
+
 /* FINE COLONNA CONTATTI
 
 /* INIZIO COLONNA CHAT */
