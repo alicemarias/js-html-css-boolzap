@@ -20,11 +20,30 @@
 /* INIZIO MAIN, CHE CONTIENE LE DUE COLONNE PRINCIPALI */
 .main {
   width: 85%;
-  height: 890px;
+  height: 97%;
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 7px;
   margin-bottom: 7px;
+}
+.main .icon {
+  font-size: 20px;
+  color: grey;
+}
+.main .avatar img {
+  height: 56px;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+  padding-left: 3px;
+  padding-top: 3px;
+  vertical-align: middle;
+}
+.main .campana i {
+  font-size: 35px;
+  color: white;
+  padding: 9px;
+  vertical-align: middle;
+  padding-right: 6px;
 }
 /* INIZIO COLONNA DEI CONTATTI */
 .main .contacts {
@@ -32,6 +51,45 @@
   height: 100%;
   float: left;
   background-color: white;
+}
+
+.contacts .io {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts .contatti {
+  overflow-y: scroll;
+  height: 70%;
+}
+
+.contacts .notifiche {
+  height: 60px;
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts .ricerca {
+  height: 40px;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .contacts .io {
+  background-color: lightgrey;
+}
+.contacts .contatto {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
 }
 /* FINE COLONNA CONTATTI
 
@@ -42,4 +100,18 @@
   float: left;
   background-image: url(../img/mine.jpg);
 }
+.main .chat .soggetto {
+  background-color: lightgrey;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*
+.chat .row-scrivi-messaggio {
+  background-color: lightgrey;
+  height: 70px;
+  width: 100%;
+} */
 /* FINE COLONNA CHAT */
