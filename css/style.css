@@ -8,14 +8,16 @@
   clear: both;
   display: table;
 }
-
+/* INIZIO WRAPPER CON LINEAR GRADIENT */
 .wrapper {
   width: 100%;
   height: 100vh;
   background: linear-gradient(180deg, #009688 12%, #d8dbd5 12%);
   padding: 15px 0;
 }
+/* FINE WRAPPER */
 
+/* INIZIO MAIN, CHE CONTIENE LE DUE COLONNE PRINCIPALI */
 .main {
   width: 85%;
   height: 890px;
@@ -24,17 +26,20 @@
   margin-top: 7px;
   margin-bottom: 7px;
 }
-
+/* INIZIO COLONNA DEI CONTATTI */
 .main .contacts {
   width: 350px;
   height: 100%;
   float: left;
   background-color: white;
 }
+/* FINE COLONNA CONTATTI
 
+/* INIZIO COLONNA CHAT */
 .main .chat {
   width: calc(100% - 350px);
   height: 100%;
   float: left;
   background-image: url(../img/mine.jpg);
 }
+/* FINE COLONNA CHAT */
