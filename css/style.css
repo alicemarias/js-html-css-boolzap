@@ -5,7 +5,8 @@
 }
 
 .wrapper {
-  background-color: green;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #009688 12%, #d8dbd5 12%);
+  padding: 15px 0;
 }
