@@ -26,15 +26,15 @@
 }
 
 .main .contacts {
-  width: 400px;
+  width: 350px;
   height: 100%;
   float: left;
-  color: red;
+  background-color: white;
 }
 
 .main .chat {
-  width: calc(100% - 400px);
+  width: calc(100% - 350px);
   height: 100%;
   float: left;
-  color: blue;
+  background-image: url(../img/mine.jpg);
 }
