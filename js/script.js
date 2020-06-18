@@ -5,7 +5,7 @@ $(document).ready(function() {
   });
   // funzione per creare e mandare messaggio
   function sendMessage() {
-  var messaggio = $('input-messaggio input').val();
+  var messaggio = $('.input-messaggio input').val();
   if(messaggio != '') {
     //clono template del massaggio
     var messaggioNuovo = $('.conversazioni .mex').clone();
@@ -16,6 +16,9 @@ $(document).ready(function() {
 
     // appendo nuovo messagio alla chat
     $('.finestra-chat').append(messaggioNuovo);
+
+    //cancello testo  input
+    $('.input-messaggio input').val('');
   }
   }
 });
