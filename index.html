@@ -44,7 +44,7 @@
           <!-- inizio riga ricerca chat -->
           <div class="ricerca">
             <i class="fas fa-search"></i>
-            <input type="text" class="look" placeholder="Cerca inizia nuova chat">
+            <input type="text" id="look" placeholder="Cerca o inizia nuova chat">
           </div>
 
           <!-- inizio contatti -->
@@ -55,7 +55,7 @@
                 <img src="img/avatar_7.jpg" alt="avatar">
               </div>
               <div class="col">
-                <p> Ian </p>
+                <p class="nome-contatto"> Ian </p>
                 <span> Ok, ciao! </span>
               </div>
               <span> 12:45 </span>
@@ -67,7 +67,7 @@
                 <img src="img/avatar_8.jpg" alt="avatar">
               </div>
               <div class="col">
-                <p> Marco </p>
+                <p class="nome-contatto"> Marco </p>
                 <span> Sta scrivendo.. </span>
               </div>
               <span> 12:45 </span>
@@ -79,7 +79,7 @@
                 <img src="img/avatar_1.jpg" alt="avatar">
               </div>
               <div class="col">
-                <p> Michele </p>
+                <p class="nome-contatto"> Michele </p>
                 <span> Buonanotte</span>
               </div>
               <span> 22:45 </span>
@@ -91,7 +91,7 @@
                 <img src="img/avatar_2.jpg" alt="avatar">
               </div>
               <div class="col">
-                <p> Enrico </p>
+                <p class="nome-contatto"> Enrico </p>
                 <span> A domani</span>
               </div>
               <span> 21:00 </span>
@@ -103,7 +103,7 @@
                 <img src="img/avatar_3.jpg" alt="avatar">
               </div>
               <div class="col">
-                <p> Alex </p>
+                <p class="nome-contatto"> Alex </p>
                 <span> ciao </span>
               </div>
               <span> 23.00</span>
@@ -115,7 +115,7 @@
                 <img src="img/avatar_4.jpg" alt="avatar">
               </div>
               <div class="col">
-                <p> Debra </p>
+                <p class="nome-contatto"> Debra </p>
                 <span> Sicuro </span>
               </div>
               <span> 09:45 </span>
@@ -127,7 +127,7 @@
                 <img src="img/avatar_5.jpg" alt="avatar">
               </div>
               <div class="col">
-                <p> Max </p>
+                <p class="nome-contatto"> Max </p>
                 <span> ok </span>
               </div>
               <span> 11:22 </span>
@@ -139,7 +139,7 @@
                 <img src="img/avatar_6.jpg" alt="avatar">
               </div>
               <div class="col">
-                <p> Anna </p>
+                <p class="nome-contatto"> Anna </p>
                 <span> yes </span>
               </div>
               <span> 18:45 </span>
@@ -170,12 +170,7 @@
 
           <!-- inizio  conversazione -->
           <div class="finestra-chat">
-            <div class="messaggio ricevuto">
 
-            </div>
-            <div class="messaggio inviato">
-
-            </div>
           </div>
 
           <!-- inizio riga scrivi messaggio -->
@@ -193,10 +188,10 @@
 
     </div>
 
-    <div class="conversazioni">
+    <div class="templates">
       <div class="messaggio">
-        <span class="testo-messaggio"></span>
-        <span class="tempo-messaggio"></span>
+          <span class="testo-messaggio"></span>
+          <span class="tempo-messaggio"></span>
       </div>
     </div>
 

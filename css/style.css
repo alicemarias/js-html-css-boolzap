@@ -178,14 +178,20 @@
   border: 1px solid white;
   border-radius: 10px;
 }
-.conversazioni {
+.templates {
   display: none;
+}
+.messaggio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .messaggio .testo-messaggio{
   color: white;
 }
 
 .messaggio .tempo-messaggio{
-  color: white;
+  color: grey;
+  font-size: 11px;
 }
 /* FINE COLONNA CHAT */
