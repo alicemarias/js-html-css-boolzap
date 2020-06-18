@@ -24,6 +24,9 @@ $(document).ready(function() {
     // appendo nuovo messagio alla chat
     $('.finestra-chat').append(messaggioNuovo);
 
+    //faccio scrollare la chat
+    $('.finestra-chat').scrollTop($('.finestra-chat').height());
+
     //cancello testo  input
     $('.input-messaggio input').val('');
   }

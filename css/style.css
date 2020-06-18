@@ -132,18 +132,26 @@
 
 .main .chat .finestra-chat {
   height: calc(100% - 140px);
+  overflow-y: scroll;
 }
 .finestra-chat  .ricevuto {
-  background-color: white;
-}
-.finestra-chat  .inviato {
-  background-color: #49C26E;
-  color:white;
-  width: 50%;
+  background-color: #E683EB;
+  width: 30%;
   height: 40px;
   padding: 10px;
   font-size: 17px;
   border-radius: 20px;
+  margin: 40px;
+}
+.finestra-chat  .inviato {
+  background-color: #49C26E;
+  color:white;
+  width: 30%;
+  height: 40px;
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 20px;
+  margin: 40px 60%;
 }
 
 .chat .scrivi {
