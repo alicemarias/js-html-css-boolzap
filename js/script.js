@@ -22,7 +22,7 @@ $(document).ready(function() {
   // quando clicco su aeroplanino per inviare mex
   $('button.invio-mex').click(function() {
     sendMessage();
-
+    sendAnswer();
   });
 
   //quando premo invio mi manda il messaggio
