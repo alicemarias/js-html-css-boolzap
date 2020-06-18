@@ -52,6 +52,7 @@
 .main a {
   color: grey;
 }
+
 .main span {
   color: grey;
 }
@@ -136,12 +137,12 @@
   background-color: white;
 }
 .finestra-chat  .inviato {
-  background-color: green;
+  background-color: #49C26E;
   color:white;
   width: 50%;
-  height: 30px;
+  height: 40px;
   padding: 10px;
-  font-size: 20px;
+  font-size: 17px;
   border-radius: 20px;
 }
 
@@ -171,5 +172,12 @@
 }
 .conversazioni {
   display: none;
+}
+.messaggio .testo-messaggio{
+  color: white;
+}
+
+.messaggio .tempo-messaggio{
+  color: white;
 }
 /* FINE COLONNA CHAT */
