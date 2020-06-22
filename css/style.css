@@ -111,6 +111,9 @@
   align-items: center;
   border-bottom: 1px solid lightgrey;
 }
+.contacts .contatto.selezionato {
+  background-color: lightgrey;
+}
 
 /* FINE COLONNA CONTATTI
 
@@ -153,7 +156,12 @@
   border-radius: 20px;
   margin: 40px 60%;
 }
-
+.conversazione {
+  display: none;
+}
+.conversazione.active {
+  display: block;
+}
 .chat .scrivi {
   background-color: lightgrey;
   height: 70px;

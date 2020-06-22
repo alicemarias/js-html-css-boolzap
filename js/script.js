@@ -1,5 +1,29 @@
 $(document).ready(function() {
 
+  // quando clicco su un contatto gli aggiungo la classe 'selezionato'
+  // e attivo la sua finestra CHAT
+  $('.contatto').click(function(){
+    // classe selected solo al contatto cliccato
+    $('.contatto').removeClass('selezionato');
+    $(this).addClass('selezionato');
+    //tolgo classe active a tutte le conversazioni
+    $('conversazione')removeClass('active');
+    //cerco la conversazione che ha l'attributo data-chat dello stesso valore del contatto
+    var contactId = $(this).attr('data-contact');
+    $('conversazione[data-chat="' + contactId + '"]').addClass('active');
+
+    var nomeContatto = $(this).find('.nome-contatto').text();
+    var fotoContatto = $(this).find('img').attr('src');
+    var soggettoChatCorrente = $('.chat-corrente');
+
+    soggettoChatCorrente.find('p').text(nomeContatto);
+    soggettoChatCorrente.find('img').attr('src', fotoContatto);
+  });
+
+
+
+
+
   //funzione ricerca CONTATTI
   $('#look').keyup(function() {
     //valore input, con tutto minuscolo
